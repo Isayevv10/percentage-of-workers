@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <div>
+        <div class="container">
+          <h2 class="text-danger text-center py-5 display-5">
+            HOME WORKING SURVEY
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <div class="result text-center bg-white d-none">
+      <div class="container lead">
+        <p>
+          <span class="text-danger display-5 p-2" id="score">0%</span> want to
+          come back to office
+        </p>
+      </div>
+    </div>
+
+    <section class="questions">
+      <div class="bg-secondary p-3">
+        <div class="container text-white">
+          <form class="survey-form">
+            <p>1. I work better workplace than home</p>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q1"
+                value="Y"
+                checked
+              />
+              <label class="form-check-label"> Yes </label>
+            </div>
+            <div class="form-check mb-2">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q1"
+                value="N"
+              />
+              <label class="form-check-label"> No </label>
+            </div>
+
+            <p>2. I want to come back to office as soon as possible</p>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q2"
+                value="Y"
+                checked
+              />
+              <label class="form-check-label"> Yes </label>
+            </div>
+            <div class="form-check mb-2">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q2"
+                value="N"
+              />
+              <label class="form-check-label"> No </label>
+            </div>
+
+            <p>3. Technique problems fix hard when you are home</p>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q3"
+                value="Y"
+                checked
+              />
+              <label class="form-check-label"> Yes </label>
+            </div>
+            <div class="form-check mb-2">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q3"
+                value="N"
+              />
+              <label class="form-check-label"> No </label>
+            </div>
+
+            <p>4. It is hard to fulfill my tasks when i am home</p>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q4"
+                value="Y"
+                checked
+              />
+              <label class="form-check-label"> Yes </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="q4"
+                value="N"
+              />
+              <label class="form-check-label"> No </label>
+            </div>
+            <div class="d-flex justify-content-center">
+              <input type="submit" class="btn btn-light" value="Send it" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
